@@ -11,7 +11,11 @@ const candidates = process.platform === "win32"
     ? {
         node: [["node", ["--version"]]],
         ffmpeg: [["ffmpeg", ["-version"]]],
-        chrome: [["google-chrome", ["--version"]], ["chromium", ["--version"]], [""/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"", ["--version"]]]
+        chrome: [
+          ["google-chrome", ["--version"]],
+          ["chromium", ["--version"]],
+          ["/Applications/Google Chrome.app/Contents/MacOS/Google Chrome", ["--version"]]
+        ]
       }
     : {
         node: [["node", ["--version"]]],
