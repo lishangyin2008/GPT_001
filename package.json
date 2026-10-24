@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "check:env": "node scripts/check-env.mjs",
-    "skills:hyperframes": "npx hyperframes skills --codex",
+    "skills:hyperframes": "npx hyperframes skills update",
     "preview": "npx hyperframes preview",
     "render": "npx hyperframes render --output out/final.mp4"
   }
