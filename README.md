@@ -7,7 +7,7 @@ A reusable Codex workspace for creating hand-drawn cartoon / doodle music videos
 1. Open this repository in Codex Cloud.
 2. Read `AGENTS.md` and the `painted-music-video` skill at `.agents/skills/painted-music-video/SKILL.md`.
 3. Run `npm run check:env` to inspect the current cloud runtime.
-4. Run `npm run skills:hyperframes` to install HyperFrames skills for Codex in the current environment.
+4. Run `npm run skills:hyperframes` (currently `npx hyperframes skills update`) to install/update the current HyperFrames core skills for the coding agent in this environment.
 5. When ready to create a video, provide the audio, lyrics (LRC if available), theme, and visual suggestions. Plan and approve a short sample before the full render.
 
 ## Important privacy note
