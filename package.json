@@ -1,0 +1,13 @@
+{
+  "name": "gpt-001-painted-music-video",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A reusable Codex workspace for beat-synced hand-drawn cartoon music videos.",
+  "type": "module",
+  "scripts": {
+    "check:env": "node scripts/check-env.mjs",
+    "skills:hyperframes": "npx hyperframes skills --codex",
+    "preview": "npx hyperframes preview",
+    "render": "npx hyperframes render --output out/final.mp4"
+  }
+}
