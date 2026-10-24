@@ -1,0 +1,17 @@
+node_modules/
+out/
+dist/
+.cache/
+.tmp/
+assets/audio-private/
+assets/lyrics-private/
+assets/reference-private/
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.aiff
+.DS_Store
+Thumbs.db
